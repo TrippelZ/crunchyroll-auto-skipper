@@ -1,0 +1,49 @@
+{
+    "manifest_version": 2,
+
+    "version":     "1.0",
+    "name":        "Crunchyroll Auto Skipper",
+    "short_name":  "Crunchy Skip",
+    "description": "Automatically press the skip button for openings, endings, recaps and previews, on Crunchyroll.",
+
+    "permissions": [
+        "storage"
+    ],
+
+    "icons": {
+        "16":  "icons/16.png",
+        "32":  "icons/32.png",
+        "48":  "icons/48.png",
+        "128": "icons/128.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "16":  "icons/16.png",
+            "32":  "icons/32.png",
+            "48":  "icons/48.png",
+            "128": "icons/128.png"
+        },
+        "default_title": "Settings",
+        "default_popup": "settings.html"
+    },
+
+    "content_scripts": [
+        {
+        "js": ["skipper.js"],
+        "run_at": "document_end",
+        "all_frames": true,
+        "matches": [
+            "*://static.crunchyroll.com/vilos-v2/web/vilos/player.html"
+            ]
+        }
+    ],
+
+    "author": "TrippelZ",
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{17585f1f-3f08-413b-86a3-61c2c4f7ab24}"
+        }
+    }
+}
