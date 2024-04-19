@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
 
-    "version":     "1.0",
+    "version":     "1.1",
     "name":        "Crunchyroll Auto Skipper",
     "short_name":  "Crunchy Skip",
     "description": "Automatically press the skip button for openings, endings, recaps and previews, on Crunchyroll.",
@@ -39,5 +39,8 @@
         }
     ],
 
-    "author": "extensions@trippelz.com"
+    "author":       "TrippelZ",
+    "homepage_url": "https://github.com/TrippelZ/crunchyroll-auto-skipper/tree/main/chrome",
+    
+    "update_url": "https://raw.githubusercontent.com/TrippelZ/crunchyroll-auto-skipper/main/updates.xml"
 }

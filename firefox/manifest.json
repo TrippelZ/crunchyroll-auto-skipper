@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "version":     "1.0",
+    "version":     "1.1",
     "name":        "Crunchyroll Auto Skipper",
     "short_name":  "Crunchy Skip",
     "description": "Automatically press the skip button for openings, endings, recaps and previews, on Crunchyroll.",
@@ -39,11 +39,13 @@
         }
     ],
 
-    "author": "TrippelZ",
+    "author":       "TrippelZ",
+    "homepage_url": "https://github.com/TrippelZ/crunchyroll-auto-skipper/tree/main/firefox",
 
     "browser_specific_settings": {
         "gecko": {
             "id": "{17585f1f-3f08-413b-86a3-61c2c4f7ab24}"
-        }
+        },
+        "update_url": "https://raw.githubusercontent.com/TrippelZ/crunchyroll-auto-skipper/main/updates.json"
     }
 }

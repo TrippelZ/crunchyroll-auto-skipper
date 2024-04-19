@@ -1,0 +1,16 @@
+{
+    "addons": {
+      "{17585f1f-3f08-413b-86a3-61c2c4f7ab24}": {
+        "updates": [
+          {
+            "version": "1.0",
+            "update_link": "https://github.com/TrippelZ/crunchyroll-auto-skipper/releases/download/v1.0/firefox.xpi"
+          },
+          {
+            "version": "1.1",
+            "update_link": "https://github.com/TrippelZ/crunchyroll-auto-skipper/releases/download/v1.1/firefox.xpi"
+          }
+        ]
+      }
+    }
+  }
